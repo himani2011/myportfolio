@@ -1,345 +1,622 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Himaniben Prajapati</title>
-  <link rel="stylesheet" href="./style.css" />
-  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento" rel="stylesheet">
-  <link rel="shortcut icon" href="./img/fbavatar_1630400663387_6838396024049256103.png" type="image/x-icon">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./main.css" type="css/stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-  integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himaniben Prajapati</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+    <link rel="icon" href="./images/square-h-solid.svg" type="image/x-icon">
 </head>
-
 <body>
-  <header class="header">
-    <nav class="navbar">
-      <div class="navbar-container container">
-        <div>
-          <h1 class="navbar-brand">Himaniben M Prajapati</h1>
-        </div>
-        <ul class="menu-items">
-          <li><a href="#about">About</a></li>
-          <li><a href="#my-internship">Experience</a></li>
-          <li><a href="#my-works">projects</a></li>
-          <li><a href="#contact-me">Contact</a></li>
-          <!-- <li><a href="https://www.blogger.com/blog/posts/3221214881295262179" target="blank">My Blogs</a></li> -->
-        </ul>
-      </div>
-    </nav>
-    <div class="home-content" id="home-page">
-      <div class="name">
-        <h1>Hi, I'm Himaniben</h1>
-        <p style="margin-bottom: 4px;">A Full Stack Developer</p>
-        <p>A Machine Learning Engineer</p>
-      </div>
-      <div class="angle-down-icon">
-        <a href="#about"><i class="fas fa-angle-down"></i></a>
-      </div>
-    </div>
-  </header>
-  <section class="about-me" id="about">
-    <div class="container">
-      <div class="about-content">
-        <div class="left-content">
-          <div>
-           <h1 class="about-heading">About Me</h1>
-          </div> 
-          <img src="https://i.postimg.cc/GpMkKTy5/my-photot.jpg" alt="image" />
-          <p>
-            Hello (world), I'm Himaniben, a dedicated computer scientist with a Masters in Computer Science. Throughout my
-            studies, I have developed interest mainly in Full Stack Development and Machine Learning. I also got to
-            work in the same for some time. My both academic and individual projects have given me a depth 
-            understanding of core concepts and built a strong foundation.    
-          </p>
-          <div class="work-arrow">
-            <p>
-              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
-            </p>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="right-content">
-            <div>
-              <h1 class="skills-heading">My Skills</h1>
+    <div class="main2">
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./images/harman.jpg" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Himaniben Prajapati">Himaniben Prajapati</h1>
+                    <p class="title">Computer Science Graduate</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
             </div>
-            <div class="skills-bar">
-              <div class="bar">
-                <div class="info">
-                  <span>HTML</span>
-                </div>
-                <div class="progress-line"><span class="html"></span></div>
-                <div class="bar">
-                  <div class="info">
-                    <span>CSS</span>
-                  </div>
-                  <div class="progress-line"><span class="css"></span></div>
-                  <div class="bar">
-                    <div class="info">
-                      <span>BOOTSTRAP</span>
-                    </div>
-                    <div class="progress-line"><span class="bootstrap"></span></div>
-                    <div class="bar">
-                      <div class="info">
-                        <span>JAVASCRIPT</span>
-                      </div>
-                      <div class="progress-line"><span class="javascript"></span></div>
 
-                      <div class="bar">
-                        <div class="info">
-                          <span>PYTHON</span>
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
                         </div>
-                        <div class="progress-line"><span class="python"></span></div>
 
-                      <div class="bar">
-                        <div class="info">
-                          <span>MACHINE LEARNING</span>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:himaniprajapati11298@gmail.com" class="contact-link">himaniprajapati11298@gmail.com</a>
                         </div>
-                        <div class="progress-line"><span class="ml"></span></div>
-                      </div>
+                    </li>
 
-                      <div class="bar">
-                        <div class="info">
-                          <span>NODE JS</span>
+                    <!-- <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
                         </div>
-                        <div class="progress-line"><span class="nodejs"></span></div>
-                    </div>
 
-                    <div class="bar">
-                      <div class="info">
-                        <span>REACT</span>
-                      </div>
-                      <div class="progress-line"><span class="react"></span></div>
-                  </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
 
-                  <div class="bar">
-                    <div class="info">
-                      <span>MONGODB</span>
-                    </div>
-                    <div class="progress-line"><span class="mongodb"></span></div>
-                </div>
-
-                <div class="bar">
-                  <div class="info">
-                    <span>SQL</span>
-                  </div>
-                  <div class="progress-line"><span class="sql"></span></div>
-              </div>
-
-                      <div class="bar">
-                        <div class="info">
-                          <span>GITHUB</span>
+                            <a href="tel:+12133522795" class="contact-link">+1 (306) 510-8098</a>
                         </div>
-                        <div class="progress-line"><span class="github"></span></div>
-                    </div>
+                    </li> -->
+
                     
-                  </div>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Regina, Saskatchewan, Canada</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.linkedin.com/in/himani-prajapati-8b6691168/" class="social-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://github.com/himani2011" class="social-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Experience</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Interests</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Projects</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>I am a passionate software developer and machine learning enthusiast with a strong foundation in computer science and hands-on experience in developing innovative solutions. Proficient in programming languages like Python, JavaScript, and SQL, as well as frameworks such as the MERN stack, TensorFlow, and Flask, I specialize in creating scalable, user-friendly, and efficient applications. My work spans projects like building generative AI tool, predictive models, dynamic websites, and scalable systems, where I’ve combined technical expertise with creativity to solve complex challenges.</p>
+                    <p>With experience in both industry and research environments, I have developed and deployed applications using advanced tools and methodologies, including Kubernetes, Docker, and CI/CD pipelines. I am also skilled in data analytics and visualization, leveraging Python and tools like Power BI to derive actionable insights. My commitment to continuous learning and problem-solving is reflected in my achievements in competitive programming and certifications in emerging technologies. I strive to build impactful solutions that align functionality with user needs and business goals.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./images/compet.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Competitive Programming </h4>
+                                <p class="service-item-text">Solving complex algorithmic challenges and optimizing solutions through competitive programming.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./images/web.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./images/ml.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Machine Learning</h4>
+                                <p class="service-item-text">Professional development of machine learning models and AI-driven solutions for real-world applications.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./images/cloud.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Software Development</h4>
+                                <p class="service-item-text">Developing robust and efficient software solutions tailored to meet diverse user and business needs.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sunit Parmar</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Himani was one of the most talented and clever students i have seen in my career till date
+                                        I think her calm nature and positive attitude towards any challenges given makes her different                                     
+                                        She is really hardworking and very polite in nature                                     
+                                        I was her mentor in one of the projects where she is able to work in a team by managing all team conflicts                                     
+                                        Himani will be a great asset to any organization i strongly recommend her</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Sunit Parmar</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Himani was one of the most talented and clever students i have seen in my career till date
+                                    I think her calm nature and positive attitude towards any challenges given makes her different                                     
+                                    She is really hardworking and very polite in nature                                     
+                                    I was her mentor in one of the projects where she is able to work in a team by managing all team conflicts                                     
+                                    Himani will be a great asset to any organization i strongly recommend her</p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-              </div>
-            </div>
-            <div class="work-arrow-2">
-              <p>
-                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-        
-                </div>
-              </div>
-            </div>
-            <div class="work-arrow-2">
-              <p>
-                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
- </section>
+                <section class="clients">
+                    <h3 class="h3 clients-title">Clients</h3>
 
- <section id="my-internship">
-    <div class="proj-heading1">
-        <h1 class="in"><u>Co-op Experience</u></h1>
-        <h2 class="intern">SaskTel, Regina, SK</h2>
-        <p style="color: antiquewhite;margin: 0 15rem 0 15rem;">I worked as a Full-time Co-op student for 8 months in SaskTel. Being a "Technical Assistant (Advancing Technologies)",
-          I got a valuable chance to work in several fields such as Machine Learning, LiDAR and some Software Development tasks. 
-        I worked on the following projects here: <br/><br/>
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="https://www.mumbaiyacafe.ca/" target="_blank"><img src="./images/mumbaiya.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section>
 
-      <div class="row">
-        <div class="col-md-4" >
-          <div class="card h-100 w-90" style="background-color:#cbd9df;margin-left: 15px;">
-            <div class="card-body">
-              <h5 class="card-title">SaskTel service churn model</h5>
-              <p class="card-text">Trained and tested several Machine Learning models
-                (including Random Forest, Gradient Boosting Decision Trees and XGBoost classifier) to identify
-                the responsible factors for a significant churn in a former SaskTel service. Here, XGBoost classifier
-                surpassed all with 81.69% accuracy.</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-md-4">
-          <div class="card h-100 w-90" style="background-color:#cbd9df;">
-            <div class="card-body">
-              <h5 class="card-title">Natural Language Processing on Finance Credit Data</h5>
-              <p class="card-text">Trained and tested Flair and Spacy models for natural language processing
-                so that it could provide valuable insights for better customer service and credit retention. 
-                They both achieved nearly 50% of F1-Score</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card h-100 w-90" style="background-color:#cbd9df;margin-right: 10px;">
-            <div class="card-body">
-              <h5 class="card-title">LiDAR Data Classification</h5>
-              <p class="card-text">LiDAR data (of one city in Saskatchewan) was analyzed
-                using Python and its LiDAR compatible libraries and then was classified into vegetation, buildings,
-                water and ground surfaces.</p>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-
-    
-    </div>
-
-
-
- </section>
-
-
-  <section id="my-works">
-    <div class="portfolio">
-      <div class="proj-heading">
-        <h1 style="margin-top: -70px;color: #07374a;">Projects</h1>
-      </div>
-      <div class="portfolio-content container">
-        <div class="proj-1">
-          <img src="https://i.postimg.cc/SxM21WQn/poj1.png">
-          <div class="proj1-details">
-            <h2>House Price Prediction Using Data Mining Techniques</h2>
-            <p>Built Using HTML | CSS | Python</p>
-            <button><a href="https://github.com/himani2011/House_Price_Prediction" target="blank">View source <i
-              class="fas fa-external-link-alt"></i></a>
-            </button>
-          </div>
-        </div>
-
-
-        <div class="proj-2">
-            <img src="https://i.postimg.cc/sxsqq9Rs/proj2.png">
-            <div class="proj2-details">
+            </article>
             
-              <h2>Solving Production and Transportation problems in Operations Research using Linear
-                Programming</h2>
-              <p>Built Using HTML | CSS | JS | Python</p>
-              <button><a href="https://github.com/himani2011/Operations_Research" target="blank">View source <i
-                class="fas fa-external-link-alt"></i></a>
-              </button>
-      
-            </div>
-          </div>
+            <article class="experience " data-page="experience">
+                <header>
+                    <h2 class="h2 article-title">Experience</h2>
+                </header>
 
-          <div class="proj-2">
-            <img src="https://i.postimg.cc/mD4RfV2y/projnews.png">
-            <div class="proj2-details">
-      
-              <h2>News App</h2>
-              <p>Built Using HTML | CSS | Bootstrap | React</p>
-              <button><a href="https://github.com/himani2011/News_ReactOnly" target="blank">View source <i
-                class="fas fa-external-link-alt"></i></a>
-              </button>
-            </div>
-          </div>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="logo-ionic"></ion-icon></div>
 
-          <div class="proj-2">
-            <img src="https://i.postimg.cc/RFVrsx5X/proj-4.png">
-            <div class="proj2-details">
-      
-              <h2>BloodHelp</h2>
-              <p>Built Using MERN | HTML | CSS | Bootstrap</p>
-              <button><a href="https://github.com/himani2011/MERN_BD" target="blank">View source <i
-                class="fas fa-external-link-alt"></i></a>
-              </button>
-            </div>
-          </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
 
-        <div class="more-work">
-          <p>
-            More on:<a href="https://github.com/himani2011" target="blank">GitHub</a>
-          </p>
-          
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Software Developer Intern - Dhrusoft, Anand, Gujarat</h4>
+                            <span>Mar 2019-Mar 2020</span>
+                            <p class="timeline-text">Explored and learnt implementing NodeJS, ReactJS, AngularJS, Python, SQL, MongoDB and PHP by contributing to different live projects</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Junior Software Developer - Dhrusoft, Anand, Gujarat</h4>
+                            <span>Apr 2020-Mar 2021</span>
+                            <p class="timeline-text">Used mainly PHP,SQL, NodeJS and ReactJS to build the software using Agile methodologies</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Technical Assistant (Advancing Technologies) (Co-op student) - SaskTel, Regina, Saskatchewan</h4>
+                            <span>May 2022-Dec 2022</span>
+                            <p class="timeline-text">Worked on Machine Learning projects and software development, including LiDAR data analysis</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Development</h5>
+                                <data value="91">91%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 91%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Machine Learning</h5>
+                                <data value="89">89%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 89%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Competitive Programming</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">App Development</h5>
+                                <data value="83">83%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 83%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section> -->
+            </article>
+
+            <article class="interests " data-page="interests">
+                <header>
+                    <h2 class="h2 article-title">Interests</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                        <li class="filter-item"><button data-filter-btn>Machine Learning</button></li>
+                        <li class="filter-item"><button data-filter-btn>Data Analytics & Visualization</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                            <li class="select-item"><button data-select-item>Machine Learning</button></li>
+                            <li class="select-item"><button data-select-item>Data Analytics & Visualization</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                                    </div>
+
+                                    <img src="./images/node.jpeg" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Node JS</h3>
+                                <p class="project-category">Web Development</p>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        
+                                    </div>
+
+                                    <img src="./images/react.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">React JS</h3>
+                                <p class="project-category">Web Development</p>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                    </div>
+
+                                    <img src="./images/mongodb.png" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">MongoDB</h3>
+                                <p class="project-category">Web Development</p>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="machine learning">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./images/python.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Python</h3>
+                                <p class="project-category">Machine Learning</p>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="machine learning">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./images/numpy2.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">NumPy</h3>
+                                <p class="project-category">Machine Learning</p>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="data analytics & visualization">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./images/excel.png" alt="metaspark" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Microsoft Excel</h3>
+                                <p class="project-category">Data Analytics & Visualization</p>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="data analytics & visualization">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./images/powerbi.jpg" alt="task manager" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">PowerBI</h3>
+                                <p class="project-category">Data Analytics & Visualization</p>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="data analytics & visualization">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./images/python.png" alt="brawlhalla" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Python (Matplotlib, Seaborn)</h3>
+                            <p class="project-category">Data Analytics & Visualization</p>
+                    </li>
+
+                        <li class="project-item active" data-filter-item data-category="machine learning">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./images/pandas.jpeg" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Pandas</h3>
+                                <p class="project-category">Machine Learning</p>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="projects" data-page="projects">
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="https://github.com/himani2011/MediaStream" target="_blank">
+                                    <figure class="blog-banner-box">
+                                        <img src="./images/scalable.png" alt="Design conferences in 2024" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta"> 
+                                        <!-- <span class="dot"></span> -->
+                                        <!-- <time datetime="2024-02-23">Feb 23, 2024</time> -->
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Scalable Media Streaming Platform</h3>
+                                    <p class="blog-text">Developed a lightweight media streaming platform with microservices architecture, indirect messaging, Kubernetes and Terraform-based infrastructure, and a CI/CD pipeline, ensuring scalability, reliability, and seamless deployment in production environments.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                                <figure class="blog-banner-box">
+                                    <img src="./images/cafe.png" alt="Best fonts every designer" loading="lazy">
+                                </figure>
+
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <!-- <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-01-29">Jan 29, 2024</time> -->
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Freelance project for a cafe</h3>
+                                    <p class="blog-text">Developed a dynamic website for a food cafe in Regina city using ReactJS, NodeJS, ExpressJS,
+                                        and SQL, enhancing online presence and customer engagement</p>
+                                </div>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="https://github.com/himani2011/Operations_Research" target="_blank">
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/W1T71QcL/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <!-- <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-12-20">Dec 20, 2023</time> -->
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Solving Production and Transportation problems in Operations Research using Linear Programming</h3>
+                                    <p class="blog-text">Developed a web application using HTML, CSS, JavaScript, and Python Flask server to solve
+                                        production and transportation problems in operations research using Python’s optimization libraries
+                                        Improved decision-making for production and transportation logistics by providing optimized
+                                        solutions and cost-effectiveness
+                                        </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            
+                                <figure class="blog-banner-box">
+                                    <img src="https://i.postimg.cc/2S0n8yxh/blog-4.jpg" alt="2023 UI interactions" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <!-- <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-11-29">Nov 29, 2023</time> -->
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">SaskTel Service Churn Model</h3>
+                                    <p class="blog-text">At SaskTel, trained and tested several Machine Learning models (including Random Forest, Gradient Boosted
+                                        Decision Trees and XGBoost classifier) to identify the responsible factors for a significant churn in
+                                        a former SaskTel service. Here, XGBoost classifier surpassed all with 81.69% accuracy and the
+                                        project provided actionable insights to the marketing and customer service teams, facilitating the
+                                        development of strategies to improve customer satisfaction and reduce churn rates</p>
+                                </div>
+                          
+                        </li>
+
+                        <li class="blog-post-item">
+                            
+                                <figure class="blog-banner-box">
+                                    <img src="./images/nlp.jpg" alt="The forgotten art of spacing" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <!-- <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-11-12">Nov 12, 2023</time> -->
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Natural Language Processing on Finance Credit Data</h3>
+                                    <p class="blog-text">At SaskTel, trained and tested Flair, Spacy and BERT for natural language processing to provide valuable
+                                        insights for better customer service and credit retention. They both achieved nearly 50% of
+                                        F1-Score and helped improving accuracy of customer feedback analysis</p>
+                                </div>
+                            
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="https://github.com/himani2011/Equity-Research-AI-Assistant" target="_blank">
+                                <figure class="blog-banner-box">
+                                    <img src="./images/equity.jpg" alt="Design digest #79" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <!-- <p class="blog-category">Design</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-10-20">Oct 20, 2023</time> -->
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Equity Research AI Assistant</h3>
+                                    <p class="blog-text">Built a generative AI tool using LangChain, OpenAI’s LLM and Streamlit to assist with equity
+                                        research. The application accepts news article URLs from users and answers their queries by
+                                        extracting insights directly from the articles. Designed to enhance decision-making for financial
+                                        analysts by providing accurate, context-driven responses, with a modular architecture for scalability</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+        
+                <!-- <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212644.66456374812!2d-105.84723546082514!3d50.4452102609435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x531cde6c4600d08d%3A0xdf0b4db4fd11c010!2sRegina%2C%20SK%2C%20Canada!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                         width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section> -->
+
+                <!-- <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section> -->
+            </article>
         </div>
-      </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </div>
-  </section>
-  <div class="contact" id="contact-me">
-    <div class="container">
-      <div class="contact-content">
-        <h2>Follow Me On</h2>
-    
-        <a href="https://www.linkedin.com/in/himani-prajapati-8b6691168" target="blank"><i class="fab fa-linkedin">
-            Linkedin</i></a>
-        <a href="https://github.com/himani2011" target="blank"><i class="fab fa-github"></i> Github</a>
-       
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $(window).scroll(function () {
-        // checks if window is scrolled more than 500px, adds/removes solid class
-        if ($(this).scrollTop() > 550) {
-          $('.navbar').addClass('solid');
-          $('.back-to-top').addClass('visible');
-        } else {
-          $('.navbar').removeClass('solid');
-          $('.back-to-top').removeClass('visible');
-        }
-
-      });
-    });
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      // Add smooth scrolling to all links
-      $("a").on('click', function (event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function () {
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-  </script>
 </body>
-
 </html>
